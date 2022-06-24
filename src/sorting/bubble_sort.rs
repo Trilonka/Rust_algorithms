@@ -15,7 +15,7 @@ pub fn bubble_sort<T: Ord>(arr: &mut [T]) {
 
 #[cfg(test)]
 mod tests {
-    use super::bubble_sort;
+    use super::*;
 
     #[test]
     fn descending() {
