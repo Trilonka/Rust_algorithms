@@ -13,6 +13,8 @@ __Properties__
 * Лучшая скорость O(n)
 * Средняя скорость O(n^2)
 
+* * *
+
 [<h3 id="cocktail_shaker">Cocktail_Shaker</h3>](./cocktail_shaker_sort.rs)
 
 ![alt text][cocktail_shaker_image]
