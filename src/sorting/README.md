@@ -1,13 +1,20 @@
 ## Sort Algorithms
 
 ### [Bubble](./bubble_sort.rs)
+
 ![alt text][bubble-image]
 
-From [Wikipedia][bubble-wiki]: Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted.
+**Сортировка пузырьком**, или **сортировка обменами** - простой алгоритм сортировки. Соседние элементы массива попарно сравниваются, и если элемент с меньшим индексом больше элемента с большим индексом (больший элемент левее), то они меняются местами. И так до тех пор, пока весь массив не будет отсортирован.
+
+Алгоритм считается учебным и практически не применяется вне учебной литературы, вместо него на практике применяются более эффективные алгоритмы сортировки. В то же время метод сортировки пузырьком лежит в основе некоторых более совершенных алгоритмов, таких как ~~[шейкерная сортировка]()~~, ~~[пирамидальная сортировка]()~~ и ~~[быстрая сортировка]()~~.
 
 __Properties__
-* Worst case performance	O(n^2)
-* Best case performance	O(n)
-* Average case performance	O(n^2)
+* Худшая скорость O(n^2)
+* Лучшая скорость O(n)
+* Средняя скорость O(n^2)
 
-###### View the algorithm in [action][bubble-toptal]
+<!--
+ID
+-->
+
+[bubble-image]: https://upload.wikimedia.org/wikipedia/commons/0/06/Bubble-sort.gif "Bubble Sort"

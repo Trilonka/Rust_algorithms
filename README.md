@@ -1,6 +1,6 @@
 # Rust_algorithms
 
-###Algorithms implemented in Rust
+### Algorithms implemented in Rust
 
 ## [Sort Algorithms](./src/sorting)
 
