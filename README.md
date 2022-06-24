@@ -5,3 +5,4 @@
 ## [Sort Algorithms](./src/sorting)
 
 - [x] [Bubble](./src/sorting/bubble_sort.rs)
+- [x] [Cocktail_Shaker](./src/sorting/cocktail_shaker_sort.rs)
