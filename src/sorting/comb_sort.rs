@@ -4,6 +4,10 @@ pub fn comb_sort<T: Ord>(arr: &mut [T]) {
     let mut sorted = false;
     while !sorted {
         gap = (gap as f32 / shrink).floor() as usize;
+        if gap <= 1 {
+            gap = 1;
+            sorted = true;
+        }
         for i in 0..arr.len()-gap {
             let j = i + gap;
             if arr[i] > arr[j] {
@@ -11,9 +15,7 @@ pub fn comb_sort<T: Ord>(arr: &mut [T]) {
                 sorted = false;
             }
         }
-        if gap == 1 {
-            sorted = true;
-        }
+        
     }
 }
 
