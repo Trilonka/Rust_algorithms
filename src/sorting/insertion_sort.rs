@@ -3,7 +3,6 @@ where
     T: Ord + Copy,
 {
     for i in 1..arr.len() {
-        println!("{}", arr[i] == arr[i-1]);
         let cur = arr[i];
         let mut j = i-1;
         while arr[j] > cur {

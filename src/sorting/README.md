@@ -82,6 +82,24 @@ __Time complexity__
 __Memory__
 * O(n)
 
+* * *
+
+[<h3 id="insertion-sort">Insertion-sort</h3>](./insertion_sort.rs)
+
+![alt text][insertion_image]
+
+**Сортировка вставками** — алгоритм сортировки, в котором элементы входной последовательности просматриваются по одному, и каждый новый поступивший элемент размещается в подходящее место среди ранее упорядоченных элементов. 
+
+Обход массива начинается с начала. Считается, что первый элемент стоит на своем месте. Тогда берут следующий элемент, и передвигают его влево до тех пор, пока он не будет больше всех левостоящих элементов. Получается, что массив в левой части всегда будет отсортирован, а достигается это _вставкой_ элемента на подходящее место.
+
+__Time complexity__
+* Худшая скорость O(n^2)
+* Лучшая скорость O(n)
+* Средняя скорость O(n^2)
+
+__Memory__
+* O(n)
+
 <!--
 ID
 -->
@@ -90,3 +108,4 @@ ID
 [cocktail_shaker_image]: https://upload.wikimedia.org/wikipedia/commons/e/ef/Sorting_shaker_sort_anim.gif "Cocktail-Shaker Sort"
 [comb_image]: https://upload.wikimedia.org/wikipedia/commons/4/46/Comb_sort_demo.gif "Comb Sort"
 [counting_image]: https://c.tenor.com/zswbYsLbYqEAAAAd/counting-sort.gif "Counting Sort"
+[insertion_image]: https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif "Insertion Sort"
