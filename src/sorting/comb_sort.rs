@@ -14,8 +14,7 @@ pub fn comb_sort<T: Ord>(arr: &mut [T]) {
                 arr.swap(i, j);
                 sorted = false;
             }
-        }
-        
+        }  
     }
 }
 
