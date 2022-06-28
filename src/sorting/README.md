@@ -2,7 +2,7 @@
 
 [<h3 id="bubble">Bubble</h3>](./bubble_sort.rs)
 
-![alt text][bubble-image]
+![alt text][bubble_image]
 
 **Сортировка пузырьком**, или **сортировка обменами** - простой алгоритм сортировки. Соседние элементы массива попарно сравниваются, и если элемент с меньшим индексом больше элемента с большим индексом (больший элемент левее), то они меняются местами. И так до тех пор, пока весь массив не будет отсортирован.
 
@@ -98,20 +98,35 @@ __Time complexity__
 * Средняя скорость O(n^2)
 
 __Memory__
-* O(n)
+* O(1)
 
 * * *
 
-<!--
-Оптимизация достигается введением новой переменной, которая будет запоминать позицию, начиная с которой мы начали уменьшать шаг. Тогда, когда мы перестанем идти влево, вместо бессмысленных проверок вправо, мы сразу перескочим на нужную позицию, которую еще не проверяли.
--->
+[<h3 id="gnome-sort">Gnome-sort</h3>](./gnome_sort.rs)
+
+![alt text][gnome_image]
+
+**Гномья сортировка**, которую еще называют **глупой сортировкой** очень похожа на [сортировку вставками](#insertion-sort), только реализован он без вложенных циклов. 
+
+Предоставлено два варианта алгоритма:
+* _классический_, когда мы шагаем вправо до тех пор, пока текущий элемент не меньше элемента слева, в противном случае меняем их местами и делаем шаг назад. 
+* _опитимизированный_, где оптимизация достигается введением новой переменной, которая будет запоминать позицию, начиная с которой мы начали уменьшать шаг. Тогда, когда мы перестанем идти влево, вместо бессмысленных проверок вправо, мы сразу перескочим на нужную позицию, которую еще не проверяли.
+
+__Time complexity__
+* Худшая скорость O(n^2)
+* Лучшая скорость O(n)
+* Средняя скорость O(n^2)
+
+__Memory__
+* O(1)
 
 <!--
 ID
 -->
 
-[bubble-image]: https://upload.wikimedia.org/wikipedia/commons/0/06/Bubble-sort.gif "Bubble Sort"
+[bubble_image]: https://upload.wikimedia.org/wikipedia/commons/0/06/Bubble-sort.gif "Bubble Sort"
 [cocktail_shaker_image]: https://upload.wikimedia.org/wikipedia/commons/e/ef/Sorting_shaker_sort_anim.gif "Cocktail-Shaker Sort"
 [comb_image]: https://upload.wikimedia.org/wikipedia/commons/4/46/Comb_sort_demo.gif "Comb Sort"
 [counting_image]: https://c.tenor.com/zswbYsLbYqEAAAAd/counting-sort.gif "Counting Sort"
 [insertion_image]: https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif "Insertion Sort"
+[gnome_image]: https://upload.wikimedia.org/wikipedia/commons/8/89/Visualization_of_Gnome_sort.gif "Gnome Sort"
