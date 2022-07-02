@@ -120,6 +120,19 @@ __Time complexity__
 __Memory__
 * O(1)
 
+* * *
+
+[<h3 id="odd-even-sort">Odd-even</h3>](./odd_even_sort.rs)
+
+![alt text][odd_even_image]
+**Четно-нечетная сортировка** - относительно простой алгоритм сортировки, _разработанный для использования на параллельных процессорах_, является модификацией [пузырьковой сортировки](#bubble). Суть модификации в том, чтобы сравнивать элементы массива под чётными и нечётными индексами с последующими элементами независимо.
+__Time complexity__
+* Худшая скорость O(n^2)
+* Лучшая скорость O(n)
+* Средняя скорость O(n^2)
+__Memory__
+* O(1)
+
 <!--
 ID
 -->
@@ -130,3 +143,4 @@ ID
 [counting_image]: https://c.tenor.com/zswbYsLbYqEAAAAd/counting-sort.gif "Counting Sort"
 [insertion_image]: https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif "Insertion Sort"
 [gnome_image]: https://upload.wikimedia.org/wikipedia/commons/8/89/Visualization_of_Gnome_sort.gif "Gnome Sort"
+[odd_even_image]: https://upload.wikimedia.org/wikipedia/commons/1/1b/Odd_even_sort_animation.gif "Odd-even Sort"
