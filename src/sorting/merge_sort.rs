@@ -10,7 +10,10 @@ where
     }
 }
 
-fn merge<T: PartialOrd + Copy>(arr: &mut [T], mid: usize) {
+fn merge<T>(arr: &mut [T], mid: usize)
+where 
+    T: PartialOrd + Copy,
+{
     let left_half = arr[..mid].to_vec();
     let right_half = arr[mid..].to_vec();
 
