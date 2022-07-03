@@ -136,6 +136,26 @@ __Time complexity__
 __Memory__
 * O(1)
 
+* * *
+
+[<h3 id="merge-sort">Merge</h3>](./merge_sort.rs)
+
+![alt text][merge_image]
+
+**Сортировка слиянием** - довольно эффективный алгоритм сортировки, хороший пример использования принципа [разделяй и властвуй](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D1%8F%D0%B9_%D0%B8_%D0%B2%D0%BB%D0%B0%D1%81%D1%82%D0%B2%D1%83%D0%B9_(%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)).
+
+Заключается алгоритм в том, что он рекурсивно применяется к левой и правой частям массива, после чего эта цепочка продолжается, пока длина разбиения больше 1. Массив единичной длины считается отсортированным. Затем из них собираются массивы длины 2, оставляя их отсортированными простыми проверками. Из этих массивов собираются массивы все большего размера, сохраняя отсортированность, и так до тех пор, пока алгоритм не вернется к массиву исходного размера. Получается, что сначала сортируются короткие массивы, из них собираются отсортированные массивы большего размера и так далее, пока весь массив не будет отсортирован. 
+
+Алгоритм выполняется за постоянное время, но в частности для массивов ему нужно выделять дополнительную память под копию данного массива.
+
+__Time complexity__
+* Худшая скорость O(n log n)
+* Лучшая скорость O(n log n)
+* Средняя скорость O(n log n)
+
+__Memory__
+* O(n)
+
 <!--
 ID
 -->
@@ -147,3 +167,4 @@ ID
 [insertion_image]: https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif "Insertion Sort"
 [gnome_image]: https://upload.wikimedia.org/wikipedia/commons/8/89/Visualization_of_Gnome_sort.gif "Gnome Sort"
 [odd_even_image]: https://upload.wikimedia.org/wikipedia/commons/1/1b/Odd_even_sort_animation.gif "Odd-even Sort"
+[merge_image]: https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif "Merge Sort"
