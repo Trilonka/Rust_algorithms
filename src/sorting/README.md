@@ -1,5 +1,16 @@
 ## Sort Algorithms
 
+* [Bubble](#bubble)
+* [Cocktail_shaker](#cocktail_shaker)
+* [Comb-sort](#comb-sort)
+* [Counting-sort](#counting-sort)
+* [Insertion-sort](#insertion-sort)
+* [Gnome-sort](#gnome-sort)
+* [Odd-even](#odd-even-sort)
+* [Merge](#merge-sort)
+
+* * *
+
 [<h3 id="bubble">Bubble</h3>](./bubble_sort.rs)
 
 ![alt text][bubble_image]
