@@ -1,13 +1,13 @@
 ## Sort Algorithms
 
-* [Bubble](#bubble)
-* [Cocktail_shaker](#cocktail_shaker)
+* [Bubble-sort](#bubble)
+* [Cocktail_shaker-sort](#cocktail_shaker)
 * [Comb-sort](#comb-sort)
 * [Counting-sort](#counting-sort)
 * [Insertion-sort](#insertion-sort)
 * [Gnome-sort](#gnome-sort)
-* [Odd-even](#odd-even-sort)
-* [Merge](#merge-sort)
+* [Odd-even-sort](#odd-even-sort)
+* [Merge-sort](#merge-sort)
 
 * * *
 
