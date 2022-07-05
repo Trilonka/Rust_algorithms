@@ -9,6 +9,7 @@
 * [Odd-even-sort](#odd-even-sort)
 * [Merge-sort](#merge-sort)
 * [Pancake-sort](#pancake-sort)
+* [Selection-sort](#selection-sort)
 
 * * *
 
