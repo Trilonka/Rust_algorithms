@@ -188,8 +188,23 @@ __Time complexity__
 __Memory__
 * O(1)
 
+* * *
+
+[<h3 id="selection-sort">Selection</h3>](./selection_sort.rs)
+
+![alt text][selection_image]
+
+**Сортировка выбором** - примитивнейший алгоритм сортировки, соответственно, крайне неэффективный в большинстве случаев.
+
+Заключается алгоритм в последовательном поиске наименьших элементов, после чего они вставляются на свои места. Подход очень простой, но из-за вложенного цикла - не эффективный.
+
+__Time complexity__
+* Худшая скорость O(n^2)
+* Лучшая скорость O(n^2)
+* Средняя скорость O(n^2)
+
 <!--
-ID
+IMAGE_ID
 -->
 
 [bubble_image]: https://upload.wikimedia.org/wikipedia/commons/0/06/Bubble-sort.gif "Bubble Sort"
@@ -201,5 +216,10 @@ ID
 [odd_even_image]: https://upload.wikimedia.org/wikipedia/commons/1/1b/Odd_even_sort_animation.gif "Odd-even Sort"
 [merge_image]: https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif "Merge Sort"
 [pancake_image]: https://upload.wikimedia.org/wikipedia/commons/0/0f/Pancake_sort_operation.png "Pancake Sort"
+[selection_image]: https://upload.wikimedia.org/wikipedia/commons/3/3e/Sorting_selection_sort_anim.gif "Selection Sort"
+
+<!--
+YOUTUBE_ID
+-->
 
 [pancake_youtube]: https://www.youtube.com/watch?v=kk-_DDgoXfk "Pancake Animation"
