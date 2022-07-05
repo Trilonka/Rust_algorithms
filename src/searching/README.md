@@ -24,4 +24,4 @@ __Memory__
 IMAGE_ID
 -->
 
-[linear_image]: https://commons.wikimedia.org/wiki/Category:Search_algorithms#/media/File:LinearSearch_Valero.jpg "Linear Search"
+[linear_image]: https://camo.githubusercontent.com/5cfe6f9610708af79ad630ab47faf788eb600b6dfe543903492675780aecc11d/68747470733a2f2f7777772e7475746f7269616c73706f696e742e636f6d2f646174615f737472756374757265735f616c676f726974686d732f696d616765732f6c696e6561725f7365617263682e676966 "Linear Search"
