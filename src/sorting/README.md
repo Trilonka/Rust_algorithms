@@ -198,4 +198,4 @@ ID
 [gnome_image]: https://upload.wikimedia.org/wikipedia/commons/8/89/Visualization_of_Gnome_sort.gif "Gnome Sort"
 [odd_even_image]: https://upload.wikimedia.org/wikipedia/commons/1/1b/Odd_even_sort_animation.gif "Odd-even Sort"
 [merge_image]: https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif "Merge Sort"
-[pancake_image]: https://en.wikipedia.org/wiki/Pancake_sorting#/media/File:Pancake_sort_operation.png "Pancake Sort"
+[pancake_image]: https://upload.wikimedia.org/wikipedia/commons/0/0f/Pancake_sort_operation.png "Pancake Sort"
