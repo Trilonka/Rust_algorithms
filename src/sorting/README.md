@@ -8,6 +8,7 @@
 * [Gnome-sort](#gnome-sort)
 * [Odd-even-sort](#odd-even-sort)
 * [Merge-sort](#merge-sort)
+* [Pancake-sort](#pancake-sort)
 
 * * *
 
@@ -167,6 +168,16 @@ __Time complexity__
 __Memory__
 * O(n)
 
+* * *
+
+[<h3 id="pancake-sort">Pancake</h3>](./pancake_sort.rs)
+
+![alt text][pancake_image]
+
+**Блинная сортировака** - алгоритм сортировки, который основан не на сравнении элементов, а на их перевороте. Собственно поэтому алгоритм и называется блинной сортировкой, потому что элементы массива постоянно переварачиваются, подобно блинам на сковородке.
+
+Заключается алгоритм в следующем: ищется максимальный элемент, после чего все элементы с начала до максимального включительно переварачиваются. Затем происходит еще один переворот так, чтобы этот максимальный элемент оказался в конце. Затем алгоритм продолжается аналогично, но во внимание уже не берутся те элементы, которые уже были поставлены в конец. 
+
 <!--
 ID
 -->
@@ -179,3 +190,4 @@ ID
 [gnome_image]: https://upload.wikimedia.org/wikipedia/commons/8/89/Visualization_of_Gnome_sort.gif "Gnome Sort"
 [odd_even_image]: https://upload.wikimedia.org/wikipedia/commons/1/1b/Odd_even_sort_animation.gif "Odd-even Sort"
 [merge_image]: https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif "Merge Sort"
+[pancake_image]: https://en.wikipedia.org/wiki/Pancake_sorting#/media/File:Pancake_sort_operation.png "Pancake Sort"
