@@ -174,7 +174,7 @@ __Memory__
 
 ![alt text][pancake_image]
 
-[Хорошая анимация алгоритма](https://www.youtube.com/watch?v=kk-_DDgoXfk)
+[Хорошая анимация алгоритма][pancake_youtube]
 
 **Блинная сортировака** - алгоритм сортировки, который основан не на сравнении элементов, а на их перевороте. Собственно поэтому алгоритм и называется блинной сортировкой, потому что элементы массива постоянно переварачиваются, подобно блинам на сковородке.
 
@@ -201,3 +201,5 @@ ID
 [odd_even_image]: https://upload.wikimedia.org/wikipedia/commons/1/1b/Odd_even_sort_animation.gif "Odd-even Sort"
 [merge_image]: https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif "Merge Sort"
 [pancake_image]: https://upload.wikimedia.org/wikipedia/commons/0/0f/Pancake_sort_operation.png "Pancake Sort"
+
+[pancake_youtube]: https://www.youtube.com/watch?v=kk-_DDgoXfk "Pancake Animation"

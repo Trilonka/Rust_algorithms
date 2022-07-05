@@ -12,3 +12,4 @@
 - [x] [Gnome-sort](./src/sorting/gnome_sort.rs)
 - [x] [Odd-even-sort](./src/sorting/odd_even_sort.rs)
 - [x] [Merge-sort](./src/sorting/merge_sort.rs)
+- [x] [Pancake-sort](./src/sorting/pancake_sort.rs)
