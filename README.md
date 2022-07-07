@@ -14,6 +14,7 @@
 - [x] [Merge-sort](./src/sorting/merge_sort.rs)
 - [x] [Pancake-sort](./src/sorting/pancake_sort.rs)
 - [x] [Selection-sort](./src/sorting/selection_sort.rs)
+- [x] [Quick-sort](./src/sorting/quick_sort.rs)
 
 ## [Search Algorithms](./src/searching)
 
