@@ -5,7 +5,6 @@ pub fn quick_sort<T: PartialOrd + Debug + Copy>(arr: &mut [T]) {
     if len < 2 {
         return;
     }
-    println!(" Hello from: {:#?}", arr.to_vec());
     _quick_sort(arr, 0, (len-1) as isize);
 }
 
@@ -23,7 +22,6 @@ fn partition<T: PartialOrd + Debug + Copy>(arr: &mut [T], lo: isize, hi: isize) 
     let mut j = hi;
 
     loop {
-        println!("{}, {}, {:#?}", i, j, arr[lo as usize..(hi+1) as usize].to_vec());
         i += 1;
         while arr[i as usize] < arr[pivot] {
             i += 1;
@@ -32,7 +30,6 @@ fn partition<T: PartialOrd + Debug + Copy>(arr: &mut [T], lo: isize, hi: isize) 
         while j>= 0 && arr[j as usize] > arr[pivot] {
             j -= 1;
         }
-        println!("{}, {}", i, j);
         if i>=j {
             break;
         } else {
