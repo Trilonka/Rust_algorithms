@@ -1,6 +1,4 @@
-use std::fmt::Debug;
-
-pub fn quick_sort<T: PartialOrd + Debug + Copy>(arr: &mut [T]) {
+pub fn quick_sort<T: PartialOrd>(arr: &mut [T]) {
     let len = arr.len();
     if len < 2 {
         return;
@@ -8,7 +6,7 @@ pub fn quick_sort<T: PartialOrd + Debug + Copy>(arr: &mut [T]) {
     _quick_sort(arr, 0, (len-1) as isize);
 }
 
-fn _quick_sort<T: PartialOrd + Debug + Copy>(arr: &mut [T], lo: isize, hi: isize) {
+fn _quick_sort<T: PartialOrd>(arr: &mut [T], lo: isize, hi: isize) {
     if lo < hi {
         let p = partition(arr, lo, hi);
         _quick_sort(arr, lo, p - 1);
@@ -16,7 +14,7 @@ fn _quick_sort<T: PartialOrd + Debug + Copy>(arr: &mut [T], lo: isize, hi: isize
     }
 }
 
-fn partition<T: PartialOrd + Debug + Copy>(arr: &mut [T], lo: isize, hi: isize) -> isize {
+fn partition<T: PartialOrd>(arr: &mut [T], lo: isize, hi: isize) -> isize {
     let pivot = hi as usize;
     let mut i = lo-1;
     let mut j = hi;
