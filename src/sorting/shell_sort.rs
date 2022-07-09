@@ -1,5 +1,5 @@
-pub fn shell_sort<T: Ord + Copy>(arr: &mut [T]) {
-    fn insertion<T: Ord + Copy>(arr: &mut [T], start: usize, gap: usize) {
+pub fn shell_sort<T: PartialOrd + Copy>(arr: &mut [T]) {
+    fn insertion<T: PartialOrd + Copy>(arr: &mut [T], start: usize, gap: usize) {
         for i in ((start + gap)..arr.len()).step_by(gap) {
             let val_current = arr[i];
             let mut pos = i;
