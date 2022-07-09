@@ -233,6 +233,7 @@ __Memory__
 
 * * *
 
+<<<<<<< HEAD
 [<h3 id="shell-sort">Shell</h3>](./shell_sort.rs)
 
 ![alt text][shell_image]
@@ -249,6 +250,8 @@ __Time complexity__
 __Memory__
 * O(1)
 
+=======
+>>>>>>> 9044a6d7e43b481df2f0e415146be092b0b6efca
 <!--
 IMAGE_ID
 -->
