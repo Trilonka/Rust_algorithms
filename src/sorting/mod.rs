@@ -10,6 +10,7 @@ pub mod pancake_sort;
 pub mod selection_sort;
 pub mod quick_sort;
 pub mod shell_sort;
+pub mod radix_sort;
 
 pub use self::bubble_sort::bubble_sort;
 pub use self::cocktail_shaker_sort::cocktail_shaker_sort;
@@ -23,3 +24,4 @@ pub use self::pancake_sort::pancake_sort;
 pub use self::selection_sort::selection_sort;
 pub use self::quick_sort::quick_sort;
 pub use self::shell_sort::shell_sort;
+pub use self::radix_sort::radix_sort;
