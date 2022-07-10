@@ -43,9 +43,32 @@ __Time complexity__
 __Memory__
 * O(1)
 
+* * *
+
+[<h3 id="exponential">Exponential</h3>](./exponential_search.rs)
+
+![exponential_search][exponential_image]
+
+**Экспоенциальный поиск** - это поиск, расчитанный на бесконечные массивы.
+
+Состоит алгоритм в следующем:
+* используя степень 2, ищутся индексы элементов, между которых _может_ располагаться искомый элемент
+* к данному промежутку применяется обычный бинарный поиск
+
+__Time complexity__
+* Худшая скорость O(log i)
+* Лучшая скорость O(1)
+* Средняя скорость O(log i)
+
+__Memory__
+* O(1)
+
+где `i` - индекс искомого элемента в массиве, или же индекс позиции, где элемент мог бы располагаться
+
 <!--
 IMAGE_ID
 -->
 
 [linear_image]: https://camo.githubusercontent.com/5cfe6f9610708af79ad630ab47faf788eb600b6dfe543903492675780aecc11d/68747470733a2f2f7777772e7475746f7269616c73706f696e742e636f6d2f646174615f737472756374757265735f616c676f726974686d732f696d616765732f6c696e6561725f7365617263682e676966 "Linear Search"
 [binary_image]: https://upload.wikimedia.org/wikipedia/commons/8/83/Binary_Search_Depiction.svg "Binary Search"
+[exponential_image]: https://upload.wikimedia.org/wikipedia/commons/4/45/Exponential_search.svg "Exponential Search"
