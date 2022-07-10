@@ -2,6 +2,7 @@
 
 * [Linear-search](#linear)
 * [Binary-search](#binary)
+* [Exponential-search](#exponential)
 
 * * *
 
