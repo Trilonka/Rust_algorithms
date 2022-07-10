@@ -1,5 +1,3 @@
-// я не понимаю эту сортировку, поэтому не привожу описание алгоритма
-// надеюсь, что позже я найду время понять ее
 pub fn radix_sort(arr: &mut [u64]) {
     if arr.len() < 2 {
         return;
@@ -32,9 +30,9 @@ mod tests {
 
     #[test]
     fn basic() {
-        let mut arr = vec![5, 2, 1, 3, 4, 6];
+        let mut arr = vec![329, 457, 657, 839, 436, 720, 355];
         radix_sort(&mut arr);
-        assert_eq!(arr, vec![1, 2, 3, 4, 5, 6]);
+        assert_eq!(arr, vec![329, 355, 436, 457, 657, 720, 839]);
     }
 
     #[test]
