@@ -21,3 +21,4 @@
 ## [Search Algorithms](./src/searching)
 
 - [x] [Linear-search](./src/searching/linear_search.rs)
+- [x] [Binary-search](./src/searching/binary_search.rs)
