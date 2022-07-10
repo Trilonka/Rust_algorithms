@@ -16,6 +16,7 @@
 - [x] [Selection-sort](./src/sorting/selection_sort.rs)
 - [x] [Quick-sort](./src/sorting/quick_sort.rs)
 - [x] [Shell-sort](./src/sorting/shell_sort.rs)
+- [x] [Radix-sort](./src/sorting/radix_sort.rs)
 
 ## [Search Algorithms](./src/searching)
 

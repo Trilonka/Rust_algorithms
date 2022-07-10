@@ -12,6 +12,7 @@
 * [Selection-sort](#selection-sort)
 * [Quick-sort](#quick-sort)
 * [Shell-sort](#shell-sort)
+* [Radix-sort](./radix_sort.rs)
 
 * * *
 
